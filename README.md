@@ -1,2 +1,0 @@
-# Equinox
-Equinox/Assets 

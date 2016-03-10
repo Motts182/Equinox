@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 2503548eb5dd325409d354a41850b1b5
+timeCreated: 1449425403
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: salem_0
+    21300002: salem_1
+    21300004: salem_2
+    21300006: salem_3
+    21300008: salem_4
+    21300010: salem_5
+    21300012: salem_6
+    21300014: salem_7
+    21300016: salem_8
+    21300018: salem_9
+    21300020: salem_10
+    21300022: salem_11
+    21300024: salem_12
+    21300026: salem_13
+    21300028: salem_14
+    21300030: salem_15
+    21300032: salem_16
+    21300034: salem_17
+    21300036: salem_18
+    21300038: salem_19
+    21300040: salem_20
+    21300042: salem_21
+    21300044: salem_22
+    21300046: salem_23
+    21300048: salem_24
+    21300050: salem_25
+    21300052: salem_26
+    21300054: salem_27
+    21300056: salem_28
+    21300058: salem_29
+    21300060: salem_30
+    21300062: salem_31
+    21300064: salem_32
+    21300066: salem_33
+    21300068: salem_34
+    21300070: salem_35
+    21300072: salem_36
+    21300074: salem_37
+    21300076: salem_38
+    21300078: salem_39
+    21300080: salem_40
+    21300082: salem_41
+    21300084: salem_42
+    21300086: salem_43
+    21300088: salem_44
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: salem_0
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 3348
+        width: 323
+        height: 409
+      alignment: 9
+      pivot: {x: .351099908, y: .268611401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_1
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3004
+        width: 328
+        height: 280
+      alignment: 9
+      pivot: {x: .829964995, y: .626830161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_2
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 2976
+        width: 281
+        height: 308
+      alignment: 9
+      pivot: {x: .782847762, y: .593338609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_3
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 2640
+        width: 504
+        height: 518
+      alignment: 9
+      pivot: {x: .496896893, y: .0782291591}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_4
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 3050
+        width: 247
+        height: 271
+      alignment: 9
+      pivot: {x: .199065551, y: .687011719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_5
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 2968
+        width: 204
+        height: 290
+      alignment: 9
+      pivot: {x: .196360871, y: .663107812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1789
+        width: 788
+        height: 1013
+      alignment: 9
+      pivot: {x: .484503508, y: .965607285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_7
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2394
+        width: 222
+        height: 407
+      alignment: 9
+      pivot: {x: .492444277, y: .858553827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_8
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 2480
+        width: 204
+        height: 360
+      alignment: 9
+      pivot: {x: .565779746, y: .849452019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_9
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 2599
+        width: 190
+        height: 293
+      alignment: 9
+      pivot: {x: .374925464, y: .852640748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_10
+      rect:
+        serializedVersion: 2
+        x: 3238
+        y: 2596
+        width: 156
+        height: 282
+      alignment: 9
+      pivot: {x: .268185347, y: .862731516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_14
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 2363
+        width: 118
+        height: 158
+      alignment: 9
+      pivot: {x: .230565995, y: .709971726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_15
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 2374
+        width: 183
+        height: 170
+      alignment: 9
+      pivot: {x: .140475586, y: .795762002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_17
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 1991
+        width: 408
+        height: 434
+      alignment: 9
+      pivot: {x: .524073005, y: .892262518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_19
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 1600
+        width: 346
+        height: 826
+      alignment: 9
+      pivot: {x: .466650099, y: .955021679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_20
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2216
+        width: 132
+        height: 148
+      alignment: 9
+      pivot: {x: .563537598, y: .817339897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_21
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 2208
+        width: 192
+        height: 188
+      alignment: 9
+      pivot: {x: .281592697, y: .856886864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_25
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1648
+        width: 352
+        height: 488
+      alignment: 9
+      pivot: {x: .0967996791, y: .936249793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_27
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 1578
+        width: 212
+        height: 511
+      alignment: 9
+      pivot: {x: .13412936, y: .945679903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_28
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 1603
+        width: 281
+        height: 445
+      alignment: 9
+      pivot: {x: .0918133855, y: .94855845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_29
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1636
+        width: 274
+        height: 404
+      alignment: 9
+      pivot: {x: .0922584236, y: .949834526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_30
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 698
+        width: 322
+        height: 312
+      alignment: 9
+      pivot: {x: .901483476, y: .274980992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_31
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 740
+        width: 274
+        height: 585
+      alignment: 9
+      pivot: {x: .637730718, y: .815443873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_32
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 896
+        width: 306
+        height: 298
+      alignment: 9
+      pivot: {x: .863142431, y: .229209125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_33
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 851
+        width: 288
+        height: 557
+      alignment: 9
+      pivot: {x: .363457561, y: .88830018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_34
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 84
+        width: 205
+        height: 512
+      alignment: 9
+      pivot: {x: .227902368, y: .955335736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_35
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 140
+        width: 193
+        height: 486
+      alignment: 9
+      pivot: {x: .212119624, y: .951846778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_37
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 114
+        width: 201
+        height: 511
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_38
+      rect:
+        serializedVersion: 2
+        x: 3470
+        y: 114
+        width: 202
+        height: 511
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_39
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 84
+        width: 193
+        height: 130
+      alignment: 9
+      pivot: {x: .114645846, y: .290962815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_40
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 146
+        width: 185
+        height: 122
+      alignment: 9
+      pivot: {x: .128163934, y: .283133835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_41
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 140
+        width: 246
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: salem_42
+      rect:
+        serializedVersion: 2
+        x: 3762
+        y: 140
+        width: 192
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
