@@ -7,8 +7,12 @@ public class Characte2D : MonoBehaviour {
     public float jumpForce = 1000f;
     public float maxSpeed = 30f;
 
+    public int curHealth;
+    public int maxHealth = 100;
+
     public bool grounded;
     public bool canDobleJumping;    
+
     private Rigidbody2D _rb;
     private Animator _anim;
 
@@ -16,10 +20,11 @@ public class Characte2D : MonoBehaviour {
 	void Awake () {
         _rb = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
+
+        curHealth = maxHealth;
 	}
 
     void Update() {
-        print(grounded);
 
         _anim.SetBool("grounded", grounded);
         _anim.SetFloat("speed", Mathf.Abs(_rb.velocity.x));
@@ -50,11 +55,13 @@ public class Characte2D : MonoBehaviour {
             }
         }
 
-        /*//simple jump
-        if (Input.GetButtonDown("Jump") && grounded)
-        {
-            _rb.AddForce(Vector2.up * jumpForce);
-        }*/
+        if (curHealth > maxHealth) {
+            curHealth = maxHealth;
+        }
+
+        if (curHealth <= 0) {
+            Die();
+        }
 
     }
 	
@@ -89,5 +96,9 @@ public class Characte2D : MonoBehaviour {
             _rb.AddForce(Vector2.right * speed);
         }
 	
+    }
+
+    void Die() {
+        Application.LoadLevel(Application.loadedLevel);
     }
 }
