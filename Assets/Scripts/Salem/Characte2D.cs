@@ -100,5 +100,24 @@ public class Characte2D : MonoBehaviour {
 
     void Die() {
         Application.LoadLevel(Application.loadedLevel);
+        //animation.Dead.play();
     }
+
+    public void Demage(int dmg) {
+        curHealth -= dmg;
+        GetComponent<Animation>().Play("redFlash");
+
+    }
+
+    public IEnumerator Knockback(float knockDur, float knockbackPwr, Vector3 knockbackDir) {
+
+        float timer = 0;
+        while(knockDur > timer){
+            timer+=Time.deltaTime;
+            _rb.AddForce(new Vector3(knockbackDir.x*-100,knockbackDir.y * knockbackPwr, transform.position.z));
+        }
+
+        yield return 0;
+    }
+
 }
