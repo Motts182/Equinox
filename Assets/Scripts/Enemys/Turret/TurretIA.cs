@@ -42,6 +42,9 @@ public class TurretIA : MonoBehaviour {
             lookingRight = false;
         }
 
+        if (curHealth <= 0) {
+            Destroy(gameObject);
+        }
 
 	}
 
@@ -83,5 +86,10 @@ public class TurretIA : MonoBehaviour {
             }
         }
     
+    }
+
+    public void Demage(int dmg) {
+        curHealth -= dmg;
+        gameObject.GetComponent<Animation>().Play("redFlash");
     }
 }
