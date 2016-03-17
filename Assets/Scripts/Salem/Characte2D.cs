@@ -11,10 +11,16 @@ public class Characte2D : MonoBehaviour {
     public int maxHealth = 100;
 
     public bool grounded;
-    public bool canDobleJumping;    
+    public bool canDobleJumping;
+    public bool wallSliding;
+    public bool facingRight  = true;
 
     private Rigidbody2D _rb;
     private Animator _anim;
+
+    public Transform wallCheckPoint;
+    public bool wallCheck;
+    public LayerMask wallLayerMask;
 
 
 	void Awake () {
@@ -32,14 +38,17 @@ public class Characte2D : MonoBehaviour {
         if (Input.GetKey(KeyCode.A))
         {
             transform.localScale = new Vector3(-1, 1, 1);
+            facingRight = false;
+
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             transform.localScale = new Vector3(1, 1, 1);
+            facingRight = true;
         }
 
-        if (Input.GetButtonDown("Jump")) {
+        if (Input.GetButtonDown("Jump") && !wallSliding) {
             if (grounded)
             {
                 _rb.AddForce(Vector2.up * jumpForce);
@@ -63,6 +72,37 @@ public class Characte2D : MonoBehaviour {
             Die();
         }
 
+        if(!grounded){
+
+            wallCheck = Physics2D.OverlapCircle(wallCheckPoint.position, 0.1f, wallLayerMask);
+
+            if (facingRight && Input.GetAxis("Horizontal") > 0.1f || !facingRight && Input.GetAxis("Horizontal") < 0.1f)
+            {
+                if (wallCheck) {
+                    HandleWallSliding();
+                }
+            }
+        }
+
+        if (wallCheck == false || grounded) {
+            wallSliding = false;
+        }
+    }
+
+    void HandleWallSliding() {
+
+        _rb.velocity = new Vector2(_rb.velocity.x, -0.7f);
+        wallSliding = true; 
+
+        if (Input.GetButtonDown("Jump")) {
+            if (facingRight)
+            {
+                _rb.AddForce(new Vector2(-2,5) *   jumpForce);
+            }
+            else {
+                _rb.AddForce(new Vector2(2, 5) * jumpForce);
+            }
+        }
     }
 	
 	void FixedUpdate () {
@@ -70,11 +110,20 @@ public class Characte2D : MonoBehaviour {
         Vector3 easeVelocity = _rb.velocity;
         easeVelocity.y = _rb.velocity.y;
         easeVelocity.z = 0.0f;
+        float h = Input.GetAxis("Horizontal");
         //easeVelocity.x se modifica para agregar o sacar friccion en los movimientos del personaje
         easeVelocity.x *= 0.75f;
 
         if (grounded) {
             _rb.velocity = easeVelocity;
+        }
+
+        if (grounded)
+        {
+            _rb.AddForce((Vector2.right * speed) * h);
+        }
+        else {
+            _rb.AddForce((Vector2.right * speed /2) * h);   
         }
 
         if (_rb.velocity.x > maxSpeed) {
@@ -100,7 +149,6 @@ public class Characte2D : MonoBehaviour {
 
     void Die() {
         Application.LoadLevel(Application.loadedLevel);
-        //animation.Dead.play();
     }
 
     public void Demage(int dmg) {
@@ -112,6 +160,7 @@ public class Characte2D : MonoBehaviour {
     public IEnumerator Knockback(float knockDur, float knockbackPwr, Vector3 knockbackDir) {
 
         float timer = 0;
+        _rb.velocity = new Vector2(_rb.velocity.x, 0);
         while(knockDur > timer){
             timer+=Time.deltaTime;
             _rb.AddForce(new Vector3(knockbackDir.x*-100,knockbackDir.y * knockbackPwr, transform.position.z));
@@ -119,5 +168,4 @@ public class Characte2D : MonoBehaviour {
 
         yield return 0;
     }
-
 }

@@ -13,9 +13,11 @@ _AI de enemigo basico
 _scripts que dispara
 _Fisica mod de enemigos
 _img y animaciones de Torre
-
-//Ultimo Commit
 _los enemgiso reciven daño con la animacion generica de daño
 _ el player puede atakar Melee
 _animaciones coordinas
 _buxFixing General
+
+//Ultimo Commit
+_Salto doble(sin terminar) 
+_paredes caminables(terminado) 
