@@ -91,16 +91,16 @@ public class Characte2D : MonoBehaviour {
 
     void HandleWallSliding() {
 
-        _rb.velocity = new Vector2(_rb.velocity.x, -0.7f);
+        _rb.velocity = new Vector2(_rb.velocity.x, -1f);
         wallSliding = true; 
 
         if (Input.GetButtonDown("Jump")) {
             if (facingRight)
             {
-                _rb.AddForce(new Vector2(-2,5) *   jumpForce);
+                _rb.AddForce(new Vector2(-2,1) * jumpForce);
             }
             else {
-                _rb.AddForce(new Vector2(2, 5) * jumpForce);
+                _rb.AddForce(new Vector2(2,1) * jumpForce);
             }
         }
     }

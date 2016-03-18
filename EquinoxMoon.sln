@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{0E14FBFB-E9D5-EF4D-ED98-AE4499E9350D}") = "EquinoxMoon", "Assembly-CSharp.csproj", "{2F095E26-5653-7D05-F08E-E86EBB320BCB}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquinoxMoon.CSharp", "EquinoxMoon.CSharp.csproj", "{7F9709DF-8013-50B7-A3CE-75C222580A5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,32 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2F095E26-5653-7D05-F08E-E86EBB320BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F095E26-5653-7D05-F08E-E86EBB320BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F095E26-5653-7D05-F08E-E86EBB320BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F095E26-5653-7D05-F08E-E86EBB320BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9709DF-8013-50B7-A3CE-75C222580A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9709DF-8013-50B7-A3CE-75C222580A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9709DF-8013-50B7-A3CE-75C222580A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9709DF-8013-50B7-A3CE-75C222580A5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																										GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
-		Policies = $0
-		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
-		$1.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $2
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
-		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
-		$3.FileWidth = 120
-		$3.TabWidth = 4
-		$3.IndentWidth = 4
-		$3.EolMarker = Unix
-		$3.inheritsSet = Mono
-		$3.inheritsScope = text/plain
-		$3.scope = text/plain
-	EndGlobalSection
-
 EndGlobal
