@@ -22,6 +22,7 @@ public class TurretIA : MonoBehaviour {
 
     void Awake() {
         anim = gameObject.GetComponent<Animator>();
+        target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
 	void Start () {

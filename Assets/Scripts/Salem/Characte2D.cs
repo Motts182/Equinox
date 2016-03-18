@@ -12,12 +12,12 @@ public class Characte2D : MonoBehaviour {
 
     public bool grounded;
     public bool canDobleJumping;
-    public bool wallSliding;
     public bool facingRight  = true;
 
     private Rigidbody2D _rb;
     private Animator _anim;
 
+    public bool wallSliding;
     public Transform wallCheckPoint;
     public bool wallCheck;
     public LayerMask wallLayerMask;

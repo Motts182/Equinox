@@ -21,10 +21,12 @@ _Salto doble(sin terminar)
 _paredes caminables(terminado) 
 _Edicion de fisica
 _Comienzo Nivel Definitivo
-
-//Ultimo Commit
 _Modificacion de la Fisica del doble salto
 _Modificacion de la fisica de escalar
 _Tag wallSliding para las paredes escalables
 _Programacion de WallSliding 
 _Comienzo de Edicion  Mapa al nivel definitivo 
+
+//Ultimo Commit
+_Modifque AI de las torres para que siempre busquen al player(Prefab terminado, Falta Diseño);
+_Se Agrego FallPlattaform Funcioando, Script, Diseño etc...

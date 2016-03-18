@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\Enemys\Turret\Bullet.cs" />
     <Compile Include="Assets\Scripts\Enemys\Turret\Turret.cs" />
     <Compile Include="Assets\Scripts\Enemys\Turret\TurretIA.cs" />
+    <Compile Include="Assets\Scripts\Level\FallingPlataformScript.cs" />
     <Compile Include="Assets\Scripts\Level\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Level\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Salem\AttakTrigger.cs" />
