@@ -7,8 +7,8 @@ public class Bullet : MonoBehaviour {
         if(!other.isTrigger){
             if(other.CompareTag("Player")){
                 other.GetComponent<Characte2D>().Demage(5);
+                Destroy(gameObject);
             }
-            Destroy(gameObject);
         }
     }
 }
