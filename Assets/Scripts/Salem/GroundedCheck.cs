@@ -11,17 +11,20 @@ public class GroundedCheck : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        _char.grounded = true;
+        if (other.CompareTag("Ground"))
+            _char.grounded = true;
     }
 
     void OnTriggerStay2D(Collider2D other)
     {
-        _char.grounded = true;
+        if (other.CompareTag("Ground"))
+            _char.grounded = true;
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        _char.grounded = false;
+        if (other.CompareTag("Ground"))
+            _char.grounded = false;
     }
 
 

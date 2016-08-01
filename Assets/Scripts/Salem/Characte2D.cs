@@ -111,7 +111,7 @@ public class Characte2D : MonoBehaviour {
         easeVelocity.y = _rb.velocity.y;
         easeVelocity.z = 0.0f;
         float h = Input.GetAxis("Horizontal");
-        print(h);
+        //print(h);
         //easeVelocity.x se modifica para agregar o sacar friccion en los movimientos del personaje
         easeVelocity.x *= 0.75f;
 

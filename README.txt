@@ -26,7 +26,8 @@ _Modificacion de la fisica de escalar
 _Tag wallSliding para las paredes escalables
 _Programacion de WallSliding 
 _Comienzo de Edicion  Mapa al nivel definitivo 
-
-//Ultimo Commit
 _Modifque AI de las torres para que siempre busquen al player(Prefab terminado, Falta Diseño);
 _Se Agrego FallPlattaform Funcioando, Script, Diseño etc...
+
+//Ultimo Commit
+Zombie V0.8
