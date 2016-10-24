@@ -38,4 +38,16 @@ public class ZombieScript : MonoBehaviour {
         _anim.SetBool("atak", false);
     }
 
+    public void Folow(bool folowRight,Transform playerTransform) {
+
+        if (folowRight)
+        {
+            _trans.Translate(Vector2.right * Time.deltaTime);
+        }
+        else {
+            _trans.Translate(Vector2.left * Time.deltaTime);
+        }
+
+    }
+
 }

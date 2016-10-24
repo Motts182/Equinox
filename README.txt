@@ -30,4 +30,4 @@ _Modifque AI de las torres para que siempre busquen al player(Prefab terminado, 
 _Se Agrego FallPlattaform Funcioando, Script, Diseño etc...
 
 //Ultimo Commit
-Zombie V0.8
+Movimiento del Zombie 
