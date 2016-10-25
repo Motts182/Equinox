@@ -11,10 +11,8 @@ public class MainMenu : MonoBehaviour {
 
     public void NewGame()
     {
-        Print("kb");
         //Application.LoadLevel(1);
-        //SceneManager.LoadScene("demo");
-
+        SceneManager.LoadScene("demo");
     }
 
     public void Options()
